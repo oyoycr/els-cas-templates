@@ -3,8 +3,8 @@
 Elsevier template 'els-cas-templates'（爱思唯尔期刊-latex双栏版本）
 
 ### 1）说明：
-- 此压缩包仅包含爱思唯尔期刊-latex复杂版式的双栏版本。
-- 此压缩包基于Elsevier官网Latex模板，删除了一些不需要的文件，并对 cas-dc-template.tex 文件进行了一些修改。
+- 此压缩包仅包含爱思唯尔期刊Latex复杂版式的双栏版本。
+- 此压缩包基于Elsevier官网Latex模板(els-cas-templates.zip)，删除了一些不需要的文件，并对 cas-dc-template.tex 文件进行了一些修改。
 
 
 ### 2）包含文件：
