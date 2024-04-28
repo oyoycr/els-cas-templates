@@ -1,0 +1,103 @@
+\documentclass[a4paper,fleqn]{cas-dc}
+%\documentclass[a4paper,fleqn,longmktitle]{cas-dc}
+\usepackage[numbers]{natbib}
+%\usepackage[authoryear]{natbib}
+%\usepackage[authoryear,longnamesfirst]{natbib}
+
+%%%Author macros
+\def\tsc#1{\csdef{#1}{\textsc{\lowercase{#1}}\xspace}}
+\tsc{WGM}
+\tsc{QE}
+%%%
+
+\begin{document}
+\let\WriteBookmarks\relax
+\def\floatpagepagefraction{1}
+\def\textpagefraction{.001}
+\let\printorcid\relax % 可去掉页面下方的ORCID(s)
+
+% Short title
+% \shorttitle{<short title of the paper for running head>} 
+\shorttitle{}    
+
+% Short author
+% \shortauthors{<short author list for running head>}
+\shortauthors{Ming Xiao et al.}
+
+% Main title of the paper
+\title[mode = title]{This is the title of the paper}  
+
+
+\author[1]{Ming Xiao}
+\author[1]{San Zhang}
+\author[2]{Si Li}
+\author[2]{Ming Da}
+\cormark[1]
+
+\address[1]{xxx Laboratory, xxx University, Changsha 410073, China} %声明第一单位
+\address[2]{xxx Laboratory, xxx University, Changsha 410073, China} %声明第二单位
+\cortext[1]{Corresponding author}  %声明通讯作者
+
+
+% Here goes the abstract
+\begin{abstract}
+In this work we demonstrate $a_b$ the formation Y\_1 of a new type of polariton on the interface between a cuprous oxide slab and a polystyrene micro-sphere placed on the slab. The evanescent field of the resonant whispering gallery mode of the micro sphere has a substantial gradient, and therefore effectively couples with the quadrupole $1^S$ excitons in cuprous oxide. This evanescent polariton has a long life-time, which is determined only by its excitonic and component. The polariton lower branch has a well pronounced minimum. This suggests that this excitation is localized and can be utilized for possible. The spatial coherence of the polariton can be improved by assembling the micro-spheres into a linear chain.
+\end{abstract}
+
+% Use if graphical abstract is present
+%\begin{graphicalabstract}
+%\includegraphics{}
+%\end{graphicalabstract}
+
+% Research highlights
+% \begin{highlights}
+% \item highlight-1
+% \item highlight-2
+% \item highlight-3
+% \end{highlights}
+
+% Keywords
+% Each keyword is seperated by \sep
+\begin{keywords}
+keyword-1 \sep 
+keyword-2 \sep 
+keyword-3
+\end{keywords}
+
+\maketitle
+
+% Main text
+\section{Section-1}
+
+Text of section-1 \cite{Fortunato2010}.
+
+\section{Section-2}
+
+Text of section-2 \cite{NewmanGirvan2004}.
+
+\section{Section-3}
+
+Text of section-3 \cite{Vehlowetal2013}.
+
+
+
+
+
+
+%% Loading bibliography style file
+%\bibliographystyle{model1-num-names}
+\bibliographystyle{cas-model2-names}
+
+% Loading bibliography database
+\bibliography{cas-refs}
+
+% Biography
+% \bio{}
+% % Here goes the biography details.
+% \endbio
+
+% \bio{pic1}
+% % Here goes the biography details.
+% \endbio
+
+\end{document}
